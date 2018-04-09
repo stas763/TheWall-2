@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+	max-width: 980;
+	margin: 0 auto;
+  background-color: orange;
+}
+
+.jumbotron {
+  /* background: red; */
+  background-image: url("https://wallpapershome.ru/images/wallpapers/poligon-2560x1600-4k-hd-cvetnoy-zeleniy-fon-225.jpg");
+  /* background-image: url("img/main-foto-bg.jpg") no-repeat; */
+}
+
+.share {
+    float: right;
+    width: 300px;
+    margin: 0 0 1em 1em;
+    margin-top: 120px;
+    padding: 10px;
+    padding-left: 20px;
+    background: #ecf0f1;
+  }
+  .share b {
+    margin-right: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #7f8c8d;
+}
+
+
+.social {
+    display: inline-block;
+    /* border-radius: 90px; */
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    /* background: #bdc3c7; */
+    vertical-align: middle;
+}
+.social-fb {
+  background: url(../img/icon-facebook.png)
+}
+.social-instagram {
+  background: url(../img/icon-instagram.png)
+}
+.social-google-plus {
+  background: url(../img/icon-google-plus.png)
+}
+
+
+
+
+
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
