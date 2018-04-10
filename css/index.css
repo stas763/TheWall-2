@@ -2,18 +2,19 @@
 
 html {
   font-family: 'Rubik', sans-serif;
+  max-width:1100px;
+	margin: 0 auto;
+  position: relative;
 }
 
-body{
-	max-width: 980;
-	margin: 0 auto;
+body {
   background-color: orange;
 }
 
 .jumbotron {
-  /* background: red; */
-  background-image: url("https://wallpapershome.ru/images/wallpapers/poligon-2560x1600-4k-hd-cvetnoy-zeleniy-fon-225.jpg");
-  /* background-image: url("img/main-foto-bg.jpg") no-repeat; */
+  background-image: url(../img/main-foto-bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .share {
@@ -33,38 +34,45 @@ body{
 }
 
 
-.social {
+.socials {
+    position: absolute;
+    top: 230px;
+    right: 25px;
     display: inline-block;
-    /* border-radius: 90px; */
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    /* background: #bdc3c7; */
-    vertical-align: middle;
+    text-align: left;
+    padding: 0 4px;
+    background: #bdc3c7;
+
 }
-.social-fb {
+/* .social-fb {
   background: url(../img/icon-facebook.png)
+  background-size: cover top;
 }
 .social-instagram {
   background: url(../img/icon-instagram.png)
+  background-size:auto;
 }
 .social-google-plus {
   background: url(../img/icon-google-plus.png)
+  background-size: contain;
+} */
+
+iframe {
+  width: 600;
+  height: 450;
+  frameborder: 0;
+  border: 0
 }
-
-
-
-
-
 
 
 
 
 footer {
-  position: fixed;
+
   bottom: 0;
   left: 0;
   height: 70px;
-  background-color: white;
+  background-color: black;
+  color: white;
   width: 100%;
 }
