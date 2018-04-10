@@ -9,7 +9,6 @@ html {
 @media (max-width: 400px){
   .jumbotron{
     color: black;
-    font-style: bold;
   }
 }
 body {
