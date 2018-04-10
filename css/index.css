@@ -6,67 +6,36 @@ html {
 	margin: 0 auto;
   position: relative;
 }
-
+@media (max-width: 400px){
+  .jumbotron{
+    color: black;
+    font-style: bold;
+  }
+}
 body {
   background-color: orange;
 }
-
+ul.socials li {
+  top:0;
+  right: 0;
+  display: inline;
+  float: right;
+}
+.fa {
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+.fa:hover {
+    opacity: 0.85;
+    color: black;
+}
 .jumbotron {
   background-image: url(../img/main-foto-bg.jpg);
   background-size: cover;
   background-position: center;
 }
-
-.share {
-    float: right;
-    width: 300px;
-    margin: 0 0 1em 1em;
-    margin-top: 120px;
-    padding: 10px;
-    padding-left: 20px;
-    background: #ecf0f1;
-  }
-  .share b {
-    margin-right: 15px;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: #7f8c8d;
-}
-
-
-.socials {
-    position: absolute;
-    top: 230px;
-    right: 25px;
-    display: inline-block;
-    text-align: left;
-    padding: 0 4px;
-    background: #bdc3c7;
-
-}
-/* .social-fb {
-  background: url(../img/icon-facebook.png)
-  background-size: cover top;
-}
-.social-instagram {
-  background: url(../img/icon-instagram.png)
-  background-size:auto;
-}
-.social-google-plus {
-  background: url(../img/icon-google-plus.png)
-  background-size: contain;
-} */
-
-iframe {
-  width: 600;
-  height: 450;
-  frameborder: 0;
-  border: 0
-}
-
-
-
-
 footer {
 
   bottom: 0;
