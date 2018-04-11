@@ -35,7 +35,10 @@ ul.socials li {
   background-size: cover;
   background-position: center;
 }
+.main-title {
+  text-align: center;
 
+}
 input, textarea {
 
   width: 60%;
@@ -47,6 +50,9 @@ input, textarea {
   height: 40px;
   margin-left: 45%;
   margin-top: 2%;
+}
+#title {
+    text-align: center;
 }
 .column {
   -webkit-column-width: 200px;
@@ -76,4 +82,7 @@ footer {
   background-color: black;
   color: white;
   width: 100%;
+}
+#footer-logo {
+  background-image: url(..img/logo-thewall-rgb-smal.jpg);
 }
