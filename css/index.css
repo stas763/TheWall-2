@@ -33,10 +33,11 @@ ul.socials li {
 }
 
 ul.socials-footer li {
-  margin-right: 20px;
   display: inline;
-  float: right;
+  float: left;
+  margin-left: 20%;
 }
+
 
 .fa {
   color: white;
@@ -73,29 +74,13 @@ input, textarea {
   margin-top: 2%;
 }
 
-#title {
-  text-align: center;
-}
-
 .column {
   margin: 10px;
-  /* -webkit-column-width: 200px;
-  -moz-column-width: 200px; */
   column-width: 200px;
-  /* -webkit-column-count: 3;
-  -moz-column-count: 3; */
   column-count: 3;
-  /* -webkit-column-gap: 30px;
-  -moz-column-gap: 30px; */
   column-gap: 30px;
-  /* -webkit-column-rule: 1px solid #ccc;
-  -moz-column-rule: 1px solid #ccc; */
   column-rule: 1px solid #ccc;
 }
-
-/* .entry-content {
-  background: #351fdd;
-} */
 
 .navbar {
   font-size: 120%
@@ -104,29 +89,12 @@ input, textarea {
 .block {
   height: 100px;
   width: 10px%;
-  /* background: red; */
   margin: 10px;
 }
 
 .block-logo {
-  height: 100px;
-  width: 100px;
-  /* background: red; */
-  margin: 10px;
-}
 
-.container-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.container {
-  display: grid;
-}
-
-.schedule {
-  background-size: cover;
-  background-position: center;
+  float: right;
 }
 
 iframe {
@@ -137,14 +105,18 @@ iframe {
 }
 
 form {
-  margin-top: 5%;
+  margin-top: 3%;
+  margin: 10%
+}
+
+#title {
+  text-align: center;
 }
 
 footer {
   flex: 0 0 auto;
   height: 70px;
-  border: 2px solid black;
-  background-color: #1a1a1d;
+  background-color: #171719;
   color: white;
   width: 100%;
   height: 200px;
