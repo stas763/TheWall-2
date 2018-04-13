@@ -54,8 +54,10 @@ ul.socials li {
   background-position: center;
 }
 
+
 .main-title {
   text-align: center;
+  margin-top: 3%;
 }
 
 input, textarea {
