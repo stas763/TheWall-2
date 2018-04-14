@@ -8,7 +8,7 @@ html {
 
 @media (max-width: 400px) {
   .jumbotron {
-    color: black;
+    color: red;
   }
 }
 
@@ -16,6 +16,7 @@ body {
   background-image: url(../img/fon-main.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -25,8 +26,40 @@ main {
   grid-template-columns: repeat(3, 1fr)
 }
 
+.schedule {
+  width: 100%;
+  background: url(https://wallpapershome.ru/images/pages/pic_hs/225.jpg);
+}
+
 @media (max-width: 400px) {
-  .card {}
+  main {
+    color: red;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: block;
+  }
+  .card {
+    margin-top: 3%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    color: blue;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: block;
+  }
+  .card {
+    margin-top: 10%;
+    padding: 2%;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
 
 ul.socials li {
@@ -53,7 +86,6 @@ ul.socials li {
   background-size: cover;
   background-position: center;
 }
-
 
 .main-title {
   text-align: center;
