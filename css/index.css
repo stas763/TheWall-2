@@ -6,10 +6,6 @@ html {
   position: relative;
 }
 
-@media (max-width: 400px) {
-  .jumbotron {}
-}
-
 body {
   background-image: url(../img/fon-main.jpg);
   background-size: cover;
@@ -45,7 +41,6 @@ main {
 
 @media (max-width: 800px) {
   main {
-    color: blue;
     margin-top: 5%;
     margin-left: 5%;
     display: block;
