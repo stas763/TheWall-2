@@ -37,6 +37,8 @@ main {
     margin: auto;
     margin-top: 10px;
   }
+  .footer-contacts{
+  }
 }
 
 @media (max-width: 800px) {
@@ -59,12 +61,13 @@ ul.socials li {
   right: 0;
   display: inline;
   float: right;
+
 }
 
 .fa {
   color: white;
   padding: 5px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -132,17 +135,19 @@ footer {
   width: 100%;
   height: auto;
   display: flex;
+
 }
 
 .footer-logo {
   display: inline-block;
+  order: 0;
 }
 
 .footer-social {
-  padding-left: 200px;
-  ;
+  padding-left: 150px;
   text-align: center;
   display: inline-block;
+  order: 1;
 }
 
 .footer-contacts {
@@ -150,4 +155,5 @@ footer {
   padding-left: 150px;
   display: inline-block;
   float: right;
+  order: 2;
 }
