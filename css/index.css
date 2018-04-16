@@ -37,8 +37,7 @@ main {
     margin: auto;
     margin-top: 10px;
   }
-  .footer-contacts{
-  }
+  .footer-contacts {}
 }
 
 @media (max-width: 800px) {
@@ -61,7 +60,6 @@ ul.socials li {
   right: 0;
   display: inline;
   float: right;
-
 }
 
 .fa {
@@ -135,7 +133,6 @@ footer {
   width: 100%;
   height: auto;
   display: flex;
-
 }
 
 .footer-logo {
