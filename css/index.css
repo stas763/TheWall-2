@@ -60,6 +60,7 @@ ul.socials li {
   right: 0;
   display: inline;
   float: right;
+  text-decoration: none;
 }
 
 .fa {
